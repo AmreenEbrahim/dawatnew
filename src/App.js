@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+// import './App.css';
+import "../src/css/main.scss";
+import { Container } from "semantic-ui-react";
 
+// import Sliderslick from "./components/header/Sliderslick";
+import HeaderInfo from "./components/header/HeaderInfo";
+import OurStory from "./components/ourstory/OurStory";
+import BookTable from "./components/bookTable/BookTable";
+import Footer from "./components/footer/Footer";
+import Galleryy from "./components/gallery/Galleryy";
+import Chefs from "./components/chefs/Chefs";
+import LatestNews from "./components/latestnews/LatestNews";
+import Sliderslick from "./components/promo/Sliderslick";
+import TodaysMenu from "./components/menu/TodaysMenu";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Container>
+			<HeaderInfo />
+			<OurStory />
+			<Sliderslick />
+			<TodaysMenu />
+			<BookTable />
+			<Chefs />
+			<LatestNews />
+			<Galleryy />
+			<Footer />
+		</Container>
+	);
 }
 
 export default App;
