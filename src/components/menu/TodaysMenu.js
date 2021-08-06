@@ -13,6 +13,8 @@ const TodaysMenu = () => {
 				<div label="All">
 					<MenuCard />
 					<MenuCard />
+					<MenuCard />
+					<MenuCard />
 				</div>
 				<div label="Breakfast">
 					<MenuCard />

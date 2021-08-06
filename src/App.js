@@ -38,12 +38,7 @@ function App() {
 		<ScrollingProvider>
 			<Fragment>
 				<DynamicMenu />
-				{/* <Section id="home">
-					<HeaderInfo />
-				</Section>
-				<Section id="blog">
-					<Galleryy />
-				</Section> */}
+
 				<HeaderInfo />
 				<OurStory />
 				<Sliderslick />

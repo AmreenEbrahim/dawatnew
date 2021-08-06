@@ -11,7 +11,10 @@ const BannerNew = () => {
 				<Navbar />
 				<span class="bannerdescription">
 					<h3>Our menu</h3>
-					<span>see whats new today</span>
+					<p> See whats new today</p>
+					<a href="/" class="book-now">
+						Book Now
+					</a>
 				</span>
 				{/* <div className="content">Lorem Ipsum is simply dummy text11</div> */}
 			</div>
