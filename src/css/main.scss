@@ -16,6 +16,7 @@ div {
 }
 section {
 	width: 100%;
+
 	margin: 0;
 	// padding-top: 200px;
 	padding: 5em 2em;
@@ -48,6 +49,8 @@ h3 {
 h3,
 h2 {
 	color: var(--primary-color);
+	font-size: 50px;
+	// margin-bottom: 0;
 }
 a {
 	color: #444444;
@@ -432,9 +435,9 @@ hr.solid {
 	color: #000000;
 }
 .card-image {
-	height: 150px;
+	height: 180px;
 	img {
-		height: 200px;
+		height: 250px;
 		width: 100%;
 	}
 }
@@ -447,7 +450,7 @@ hr.solid {
 	align-content: center;
 	background: #ffffff;
 	color: #000000;
-	padding-top: 4em;
+	padding-top: 1em;
 	padding-bottom: 1em;
 	h4 {
 		&::after {
