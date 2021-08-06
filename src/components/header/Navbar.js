@@ -6,9 +6,9 @@ const Navbar = () => {
 		<div class="navbar">
 			<div class="container">
 				<nav>
-					<ul class="primary-nav">
+					<ul class="primary-nav" id>
 						<a href="/">
-							<Image src={"../../img/main_logo_black.png"} />
+							<Image src={"../../img/main_logo.png"} />
 						</a>
 					</ul>
 					<ul class="secondary-nav">

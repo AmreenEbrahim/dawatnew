@@ -14,42 +14,25 @@ import LatestNews from "./components/latestnews/LatestNews";
 import Sliderslick from "./components/promo/Sliderslick";
 import TodaysMenu from "./components/menu/TodaysMenu";
 
-import {
-	ScrollingProvider,
-	useScrollSections
-	// Section
-} from "react-scroll-section";
+import ScrollToTop from "react-scroll-to-top";
 
-export const DynamicMenu = () => {
-	const sections = useScrollSections();
-
-	return (
-		<ul>
-			{sections.map(({ id, onClick, selected }) => (
-				<li key={id} onClick={onClick} selected={selected}>
-					{id.toUpperCase()}
-				</li>
-			))}
-		</ul>
-	);
-};
 function App() {
 	return (
-		<ScrollingProvider>
-			<Fragment>
-				<DynamicMenu />
+		// <ScrollingProvider>
+		<Fragment>
+			<ScrollToTop smooth color="#fff" style={{ "background-color": " red" }} />
 
-				<HeaderInfo />
-				<OurStory />
-				<Sliderslick />
-				<TodaysMenu />
-				<BookTable />
-				<Chefs />
-				<LatestNews />
-				<Galleryy />
-				<Footer />
-			</Fragment>
-		</ScrollingProvider>
+			<HeaderInfo />
+			<OurStory />
+			<Sliderslick />
+			<TodaysMenu />
+			<BookTable />
+			<Chefs />
+			<LatestNews />
+			<Galleryy />
+			<Footer />
+		</Fragment>
+		// </ScrollingProvider>
 	);
 }
 
