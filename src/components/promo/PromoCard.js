@@ -1,7 +1,7 @@
 import React from "react";
 
-const PromoCard = ({src,offer,items}) => {
-console.log("props",src,offer,items)
+const PromoCard = ({ src, offer, items }) => {
+	// console.log("props",src,offer,items)
 	return (
 		<a>
 			<img src={src} size="medium" />

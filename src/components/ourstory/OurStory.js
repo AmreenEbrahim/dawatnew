@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, Image } from "semantic-ui-react";
+// import { Container, Image } from "semantic-ui-react";
 
 const OurStory = () => {
 	return (
@@ -17,8 +17,8 @@ const OurStory = () => {
 				with desktop publishing software like Aldus PageMaker including versions
 				of Lorem Ipsum.
 			</p>
-			<Image size="mini" src="/img/about_sign.png" />
-			<Image size="medium" className="story-border" src="/img/story.png" />
+			<img size="mini" src="/img/about_sign.png" />
+			<img size="lat" className="story-border" src="/img/story.png" />
 		</section>
 	);
 };

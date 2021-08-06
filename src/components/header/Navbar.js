@@ -5,10 +5,6 @@ const Navbar = () => {
 	return (
 		<div class="navbar">
 			<div class="container">
-				<a href="#">
-					<Image src={"../../img/main_logo.png"} />
-				</a>
-
 				<nav>
 					<ul class="primary-nav">
 						<a href="#">
@@ -20,16 +16,25 @@ const Navbar = () => {
 							<a href="#">Home</a>
 						</li>
 						<li>
-							<a href="#">Feature</a>
+							<a href="#">About us</a>
 						</li>
 						<li>
-							<a href="#">Pricing</a>
+							<a href="#">Offer</a>
 						</li>
 						<li>
-							<a href="#">Contact</a>
+							<a href="#">Menu</a>
 						</li>
-						<li class="go-premiem-cta">
-							<a href="#">Go Premiem</a>
+						<li>
+							<a href="#">Team</a>
+						</li>
+						<li>
+							<a href="#">blog</a>
+						</li>
+						<li>
+							<a href="#">gallery</a>
+						</li>
+						<li>
+							<a href="#">contact</a>
 						</li>
 					</ul>
 				</nav>

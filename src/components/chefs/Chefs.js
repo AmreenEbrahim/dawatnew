@@ -32,19 +32,11 @@ const Chefs = () => {
 	return (
 		<section className="chef-section ">
 			<h3>Our chef's</h3>
+			<img className="redimg" src="../../img/red.png" />
 			<div>
-				{/* <img src="../../img/team-5.jpg" size="mini" />
-				<div className="layer">
-					<h4>hii</h4>
-				</div> */}
-
 				{images.map(image => (
 					<div>
 						<figure className="img__wrap">
-							{/* <div className="layer">
-							<h4 className="chefs-link">hii</h4>
-						</div> */}
-
 							<img src={image.src} size="mini" />
 							<p className="img__description">
 								<ul className="chef-social">
@@ -60,8 +52,6 @@ const Chefs = () => {
 									<li>
 										<Image src={"../../img/skype.png"} />
 									</li>
-									
-									
 								</ul>
 							</p>
 							<figcaption className="name">{image.name}</figcaption>

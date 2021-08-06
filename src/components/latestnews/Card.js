@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({src}) => {
+const Card = ({ src }) => {
 	return (
 		<div className="e-card">
 			<div className="card-image">
@@ -14,7 +14,7 @@ const Card = ({src}) => {
 					as complex values, primitive values, scope, inheritance, the head
 					object, and more.
 				</p>
-				<span>24february 2017     -    5comments</span>
+				<p>24february 2017 - 5comments</p>
 			</div>
 		</div>
 	);

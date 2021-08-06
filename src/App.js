@@ -1,9 +1,9 @@
-// import logo from "./logo.svg";
-// import './App.css';
+import React, { Fragment } from "react";
+
+// import "semantic-ui-css/semantic.min.css";
 import "../src/css/main.scss";
 import { Container } from "semantic-ui-react";
 
-// import Sliderslick from "./components/header/Sliderslick";
 import HeaderInfo from "./components/header/HeaderInfo";
 import OurStory from "./components/ourstory/OurStory";
 import BookTable from "./components/bookTable/BookTable";
@@ -15,7 +15,7 @@ import Sliderslick from "./components/promo/Sliderslick";
 import TodaysMenu from "./components/menu/TodaysMenu";
 function App() {
 	return (
-		<Container>
+		<Fragment>
 			<HeaderInfo />
 			<OurStory />
 			<Sliderslick />
@@ -25,7 +25,7 @@ function App() {
 			<LatestNews />
 			<Galleryy />
 			<Footer />
-		</Container>
+		</Fragment>
 	);
 }
 

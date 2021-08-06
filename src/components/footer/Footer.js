@@ -4,7 +4,7 @@ import { Image } from "semantic-ui-react";
 const Footer = () => {
 	return (
 		<section className="footer">
-			<Image src={"../../img/main_logo.png"} />
+			<img src={"../../img/main_logo.png"} />
 			<address>
 				20,floor, Queensland Victoria Building,60 California USA
 			</address>

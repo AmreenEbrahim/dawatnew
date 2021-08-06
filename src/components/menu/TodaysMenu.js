@@ -1,11 +1,41 @@
 import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css";
+
+import Tabs from "./Tabs";
+import MenuCard from "./MenuCard";
 
 const TodaysMenu = () => {
 	return (
 		<section className="menu-section">
 			<h3>Today's Menu</h3>
+			<img src="/img/red.png" />
+
+			<Tabs>
+				<div label="All">
+					<MenuCard />
+					<MenuCard />
+				</div>
+				<div label="Breakfast">
+					<MenuCard />
+					<MenuCard />
+				</div>
+				<div label="Lunch">
+					<MenuCard />
+					<MenuCard />
+				</div>
+				<div label="Dinner">
+					<MenuCard />
+					<MenuCard />
+				</div>
+				<div label="coffee">
+					<MenuCard />
+					<MenuCard />
+				</div>
+				<div label="Snack">
+					<MenuCard />
+					<MenuCard />
+				</div>
+			</Tabs>
+
 			{/* <Tabs>
 				<TabList cclassname="tablist">
 					<Tab className="tab">
