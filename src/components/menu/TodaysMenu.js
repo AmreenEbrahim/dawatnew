@@ -7,7 +7,7 @@ const TodaysMenu = () => {
 	return (
 		<section className="menu-section">
 			<h3>Today's Menu</h3>
-			<img src="/img/red.png" />
+			<img src="/img/red.png" alt="No " />
 
 			<Tabs>
 				<div label="All">
@@ -39,12 +39,12 @@ const TodaysMenu = () => {
 			{/* <Tabs>
 				<TabList cclassname="tablist">
 					<Tab className="tab">
-						<a href="#" class="tab1">
+						<a href="/" class="tab1">
 							Book Now
 						</a>
 					</Tab>
 					<Tab>
-						<a href="#" class="tab1">
+						<a href="/" class="tab1">
 							Book Now2
 						</a>
 					</Tab>

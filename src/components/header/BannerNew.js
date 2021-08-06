@@ -5,7 +5,7 @@ const BannerNew = () => {
 	return (
 		<div className="banner">
 			<div className="slider">
-				<img src="./../img/promo_slide_1.jpg" id="slideImg" />
+				<img src="./../img/promo_slide_1.jpg" alt="No" id="slideImg" />
 			</div>
 			<div className="overlay" id="slideset1">
 				<Navbar />

@@ -7,34 +7,34 @@ const Navbar = () => {
 			<div class="container">
 				<nav>
 					<ul class="primary-nav">
-						<a href="#">
+						<a href="/">
 							<Image src={"../../img/main_logo_black.png"} />
 						</a>
 					</ul>
 					<ul class="secondary-nav">
 						<li class="current">
-							<a href="#">Home</a>
+							<a href="/">Home</a>
 						</li>
 						<li>
-							<a href="#">About us</a>
+							<a href="/about">About us</a>
 						</li>
 						<li>
-							<a href="#">Offer</a>
+							<a href="/offer">Offer</a>
 						</li>
 						<li>
-							<a href="#">Menu</a>
+							<a href="/menu">Menu</a>
 						</li>
 						<li>
-							<a href="#">Team</a>
+							<a href="/team">Team</a>
 						</li>
 						<li>
-							<a href="#">blog</a>
+							<a href="/blog">blog</a>
 						</li>
 						<li>
-							<a href="#">gallery</a>
+							<a href="/gallery">gallery</a>
 						</li>
 						<li>
-							<a href="#">contact</a>
+							<a href="/contact">contact</a>
 						</li>
 					</ul>
 				</nav>

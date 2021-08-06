@@ -6,7 +6,7 @@ const MenuCard = () => {
 		<div className="menucard-section">
 			<ul>
 				<li>
-					<img src="../../img/menu_1.jpg" />
+					<img alt="No" src="../../img/menu_1.jpg" />
 					<div>
 						<h4>Lorem ipsum dolor sit amet,</h4>
 						<ul>

@@ -7,19 +7,19 @@ const HeaderList = () => {
 				<div className="container">
 					<ul className="primary">
 						<li>
-							<a>email</a>
+							<a href="/">email</a>
 						</li>
 						<li>
-							<a>telephone</a>
+							<a href="/">telephone</a>
 						</li>
 					</ul>
 					<ul className="secondary">
 						<li>sociaal link</li>
 						<li>
-							<a>book now</a>
+							<a href="/">book now</a>
 						</li>
 						<li>
-							<a>Contact</a>
+							<a href="/">Contact</a>
 						</li>
 					</ul>
 				</div>

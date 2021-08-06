@@ -20,7 +20,7 @@ const Sliderslick = () => {
 	return (
 		<section className="promo-section">
 			<h3>Special Offers</h3>
-			<img src="/img/red.png" />
+			<img src="/img/red.png" alt="No " />
 			<Slider {...settings} className="promo-card slick-list">
 				<PromoCard
 					src={"../../img/promo_slide_1.jpg"}

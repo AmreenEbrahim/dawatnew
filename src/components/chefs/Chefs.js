@@ -32,12 +32,12 @@ const Chefs = () => {
 	return (
 		<section className="chef-section ">
 			<h3>Our chef's</h3>
-			<img className="redimg" src="../../img/red.png" />
+			<img className="redimg" src="../../img/red.png" alt="No " />
 			<div>
 				{images.map(image => (
 					<div>
 						<figure className="img__wrap">
-							<img src={image.src} size="mini" />
+							<img src={image.src} size="mini" alt="No " />
 							<p className="img__description">
 								<ul className="chef-social">
 									<li>

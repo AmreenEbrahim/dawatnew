@@ -4,7 +4,7 @@ const Card = ({ src }) => {
 	return (
 		<div className="e-card">
 			<div className="card-image">
-				<img src={src} />
+				<img src={src} alt="No " />
 			</div>
 			<div className="e-card-content">
 				<h4>Restaurant welcome day meetup</h4>

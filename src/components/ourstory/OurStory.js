@@ -17,8 +17,8 @@ const OurStory = () => {
 				with desktop publishing software like Aldus PageMaker including versions
 				of Lorem Ipsum.
 			</p>
-			<img size="mini" src="/img/about_sign.png" />
-			<img size="lat" className="story-border" src="/img/story.png" />
+			<img size="mini" src="/img/about_sign.png" alt="No " />
+			<img size="lat" className="story-border" src="/img/story.png" alt="No " />
 		</section>
 	);
 };

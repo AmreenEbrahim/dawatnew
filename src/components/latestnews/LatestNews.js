@@ -54,7 +54,7 @@ const LatestNews = props => {
 		<section className="latest-news">
 			<div className="title">
 				<h3>Latest News</h3>
-				<img src="/img/red.png" />
+				<img src="/img/red.png" alt="No " />
 			</div>
 			<div className="carasouel-width ">
 				<Carousel

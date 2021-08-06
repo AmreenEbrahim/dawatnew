@@ -4,7 +4,7 @@ import { Image } from "semantic-ui-react";
 const Footer = () => {
 	return (
 		<section className="footer">
-			<img src={"../../img/main_logo.png"} />
+			<img src={"../../img/main_logo.png"} alt="No " />
 			<address>
 				20,floor, Queensland Victoria Building,60 California USA
 			</address>
@@ -26,21 +26,21 @@ const Footer = () => {
 				<div className="container">
 					<ul className="primary">
 						<li>
-							<a>Teams of use</a>
+							<a href="/">Teams of use</a>
 						</li>
 						<li>
-							<a>Privacy Policy</a>
+							<a href="/">Privacy Policy</a>
 						</li>
 						<li>
-							<a>SiteMap</a>
+							<a href="/">SiteMap</a>
 						</li>
 						<li>
-							<a>Contact</a>
+							<a href="/"> Contact</a>
 						</li>
 					</ul>
 					<ul className="secondary">
 						<li>
-							Copyright @2017<a href="#">Dawat Restaurant</a> All rights
+							Copyright @2017<a href="/">Dawat Restaurant</a> All rights
 							reserved
 						</li>
 					</ul>

@@ -13,7 +13,7 @@ const Galleryy = () => {
 				<Image src={"../../img/globe.png"} />
 				<Image src={"../../img/pinterest.png"} />
 			</p> */}
-			<img src="/img/red.png" />
+			<img src="/img/red.png" alt="No " />
 		</section>
 	);
 };
