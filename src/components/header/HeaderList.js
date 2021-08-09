@@ -7,20 +7,24 @@ const HeaderList = () => {
 				<div className="container">
 					<ul className="primary">
 						<li>
-							<a href="/">email</a>
+							<a href="/">Email:info@restaurant.com</a>
 						</li>
 						<li>
-							<a href="/">telephone</a>
+							<a href="/">Telephone: +18002345677</a>
 						</li>
 					</ul>
 					<ul className="secondary">
-						<li>sociaal link</li>
-						<li>
-							<a href="/">book now</a>
-						</li>
-						<li>
-							<a href="/">Contact</a>
-						</li>
+						<img src={"../../img/fbwhite.png"} alt="No" />
+						<img src={"../../img/google-plus.png"} alt="No" />
+						<img src={"../../img/twitter.png"} alt="No" />
+						<img src={"../../img/skype.png"} alt="No" />
+						<img src={"../../img/globe.png"} alt="No" />
+						<img src={"../../img/pinterest.png"} alt="No" />
+						{/* <li>
+							<a href="/" class="book-now">
+								Book Now
+							</a>
+						</li> */}
 					</ul>
 				</div>
 			</header>

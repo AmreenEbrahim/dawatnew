@@ -1,17 +1,16 @@
 import React from "react";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 
-const BannerNew = () => {
+const BannerNew = ({ src, menu, submenu }) => {
 	return (
-		<div className="banner">
+		<div className="banner" id="banner">
 			<div className="slider">
-				<img src="./../img/promo_slide_1.jpg" alt="No" id="slideImg" />
+				<img src={src} alt="No" id="slideImg" />
 			</div>
 			<div className="overlay" id="slideset1">
-				<Navbar />
 				<span class="bannerdescription">
-					<h3>Our menu</h3>
-					<p> See whats new today</p>
+					<h3>{menu}</h3>
+					<p> {submenu}</p>
 					<a href="/" class="book-now">
 						Book Now
 					</a>

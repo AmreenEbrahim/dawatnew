@@ -3,7 +3,7 @@ import { Image } from "semantic-ui-react";
 
 const Footer = () => {
 	return (
-		<section className="footer">
+		<div className="footer">
 			<img src={"../../img/main_logo.png"} alt="No " />
 			<address>
 				20,floor, Queensland Victoria Building,60 California USA
@@ -21,7 +21,6 @@ const Footer = () => {
 				<Image src={"../../img/pinterest.png"} />
 			</div>
 			<div className="bottom_border"></div>
-
 			<footer className="footer-list ">
 				<div className="container">
 					<ul className="primary">
@@ -46,7 +45,7 @@ const Footer = () => {
 					</ul>
 				</div>
 			</footer>
-		</section>
+		</div>
 	);
 };
 

@@ -16,7 +16,7 @@ div {
 }
 section {
 	width: 100%;
-
+	// height: 100vh;
 	margin: 0;
 	// padding-top: 200px;
 	padding: 5em 2em;
@@ -67,7 +67,7 @@ ul {
 			rgba(12, 13, 14, 0.7),
 			rgba(12, 13, 14, 0.7)
 		),
-		url(../img/blog-1.jpg);
+		url(../img/promo_slide_1.jpg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -84,6 +84,7 @@ ul {
 
 	img {
 		width: 100%;
+		height: 100%;
 		position: relative;
 	}
 
@@ -99,85 +100,106 @@ ul {
 			justify-content: space-between;
 		}
 		ul {
+			list-style: none;
 			display: flex;
 			// justify-content: space-between;
 		}
 		a {
-			color: var(--primary-color);
+			color: white;
 			font-size: 1em;
 			padding: 0.1em 1em;
+			text-decoration: none;
+		}
+		.primary {
+			place-content: center;
 		}
 	}
 }
 .navbar {
-	widows: 85%;
+	width: 80%;
 	.container {
-		margin: 35px auto;
-		width: 90%;
+		margin: 0;
+		width: 100%;
 		position: fixed;
-		// background: white;
-		padding: 1em;
+		background: transparent;
+		// padding: 1em;
 		z-index: 999;
 		display: flex;
 		align-items: "center";
 		place-content: space-between;
 	}
-}
-.navbar nav {
-	display: flex;
-	justify-content: space-between;
-	background: none;
-	position: unset;
-	height: auto;
-	width: 100%;
-	padding: 0;
-
-	ul {
+	nav {
 		display: flex;
-		text-decoration: none;
-	}
-	a {
-		color: black;
-		font-size: 1em;
-		padding: 0.1em 1em;
-	}
-	ul.primary-nav {
-		flex-basis: 15%;
-		margin: 0;
-	}
+		justify-content: space-between;
+		background: transparent;
+		position: unset;
+		height: auto;
+		width: 100%;
+		padding: 10px;
 
-	li {
-		a {
-			color: white;
+		ul {
+			display: flex;
 			text-decoration: none;
-			display: block;
-			padding: 0.5em;
+		}
+		a {
+			color: black;
 			font-size: 1em;
-			text-align: right;
-			text-transform: uppercase;
+			padding: 0.1em 1em;
+		}
+		ul.primary-nav {
+			flex-basis: 15%;
+			margin: 0;
+		}
 
-			&:hover {
-				font-weight: bold;
+		li {
+			a {
+				color: white;
+				text-decoration: none;
+				display: block;
+				padding: 0.9em;
+				font-size: 1em;
+				text-align: right;
+				text-transform: uppercase;
+				align-items: center;
+
+				&:hover {
+					font-weight: bold;
+					color: var(--primary-color);
+				}
+			}
+		}
+
+		li.current a {
+			list-style-type: none;
+			// font-weight: bold;
+		}
+	}
+}
+.active {
+	nav {
+		margin-bottom: 0.8em;
+		&::after {
+			background: linear-gradient(-45deg, #000000 16px, transparent 0),
+				linear-gradient(45deg, #000000 16px, transparent 0);
+
+			background-position: top right;
+			background-repeat: repeat-x;
+			background-size: 32px 32px;
+			content: " ";
+			display: block;
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+			width: 100%;
+			height: 32px;
+		}
+		background: white;
+		li {
+			a {
+				color: black;
 			}
 		}
 	}
-
-	li.current a {
-		list-style: none;
-		// font-weight: bold;
-	}
-	// li.go-premiem-cta a {
-	// 	color: var(--primary-color);
-	// 	border: 3px solid var(--primary-color);
-	// 	font-weight: bold;
-	// 	border-radius: 5em;
-	// 	margin-top: -0.2em;
-
-	// 	&:hover {
-	// 		background: var(--primary-color);
-	// 		color: white;
-	// 	}
-	// }
 }
 .promo-section {
 	// width: 100%;
@@ -195,10 +217,10 @@ ul {
 	align-items: center;
 	.promo-card {
 		margin-top: 3em;
-		.slick-list {
-			// align-items: center;
-			// justify-content: center;
-		}
+		// .slick-list {
+		// 	// align-items: center;
+		// 	// justify-content: center;
+		// }
 		.slick-dots {
 			bottom: 100px;
 
@@ -354,10 +376,11 @@ hr.solid {
 		margin: 2em;
 		padding: 2em;
 		font-style: normal;
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.footer-list {
-		bottom: 0;
+		// bottom: 0;
+		place-content: center;
 		// display: flex;
 		// justify-content: space-between;
 	}
@@ -386,7 +409,12 @@ hr.solid {
 	grid-gap: 25px;
 	justify-content: center;
 }
-
+.secondary {
+	display: flex;
+	grid-gap: 10px;
+	justify-content: center;
+	height: 12%;
+}
 .chef-section {
 	.redimg {
 		width: 20%;
@@ -821,7 +849,7 @@ hr.solid {
 span {
 	animation-duration: 3s;
 	animation-name: slidein;
-	animation-iteration-count: 10;
+	animation-iteration-count: infinite;
 	animation-fill-mode: forwards;
 }
 
@@ -863,20 +891,20 @@ span {
 
 //banner new
 .banner {
-	width: 100%;
+	width: 110%;
 	height: 100vh;
 	position: relative;
 	// overflow: hidden;
 }
 .slider {
-	width: 100%;
+	width: 110%;
 	height: 100vh;
 	position: absolute;
 	top: 0;
 }
 #slideImg {
-	width: 100%;
-	height: 100%;
+	width: 120%;
+	height: 100vh;
 }
 .overlay {
 	width: 100%;

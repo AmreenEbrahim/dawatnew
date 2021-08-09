@@ -2,7 +2,7 @@ import React from "react";
 
 const BookTable = () => {
 	return (
-		<section className="book-table-section">
+		<section className="book-table-section" id="booktable">
 			<h2>Book a table now !</h2>
 			<a href="/" class="book-now">
 				Book Now
