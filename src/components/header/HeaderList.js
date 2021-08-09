@@ -7,9 +7,11 @@ const HeaderList = () => {
 				<div className="container">
 					<ul className="primary">
 						<li>
+							<img src="../../img/email.png" />
 							<a href="/">Email:info@restaurant.com</a>
 						</li>
 						<li>
+							<img src="../../img/phone-call.png" />
 							<a href="/">Telephone: +18002345677</a>
 						</li>
 					</ul>
@@ -20,11 +22,10 @@ const HeaderList = () => {
 						<img src={"../../img/skype.png"} alt="No" />
 						<img src={"../../img/globe.png"} alt="No" />
 						<img src={"../../img/pinterest.png"} alt="No" />
-						{/* <li>
-							<a href="/" class="book-now">
-								Book Now
-							</a>
-						</li> */}
+
+						<a href="/" class="booktable">
+							Book A Table
+						</a>
 					</ul>
 				</div>
 			</header>

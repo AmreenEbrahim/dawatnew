@@ -20,27 +20,10 @@ const settings = {
 	adaptiveHeight: true,
 	slidesToShow: 1,
 	centerMode: true,
-	autoplay: true,
+	autoplay: false,
 	slidesToScroll: 1
 };
 
-// const images = [
-// 	{
-// 		name: "Mark Angelila",
-// 		src: "../../img/promo_slide_1.jpg",
-// 		desc: "Lorem Ipsum is simply dummy text11 "
-// 	},
-// 	{
-// 		name: "Angel Meskat",
-// 		src: "../../img/promo_slide_1.jpg",
-// 		desc: "Lorem Ipsum is simply dummy text."
-// 	}
-// 	// {
-// 	// 	name: "John Doe",
-// 	// 	src: ".../../img/promo_slide_1.jpg",
-// 	// 	desc: "Lorem Ipsum is simply dummy text "
-// 	// }
-// ];
 const HeaderInfo = () => {
 	return (
 		<div className="header-section">

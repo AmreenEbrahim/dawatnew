@@ -11,30 +11,30 @@ const TodaysMenu = () => {
 
 			<Tabs>
 				<div label="All">
-					<MenuCard />
-					<MenuCard />
-					<MenuCard />
-					<MenuCard />
+					<MenuCard src="../../img/menu_1.jpg" name="Cup Cake" price="350rs" />
+					<MenuCard src="../../img/menu_2.jpg" name="Cup Cake" price="150rs" />
+					<MenuCard src="../../img/menu_3.jpg" name="Cup Cake" price="100rs" />
+					<MenuCard src="../../img/menu_4.jpg" name="Cup Cake" price="400rs" />
 				</div>
 				<div label="Breakfast">
-					<MenuCard />
-					<MenuCard />
+					<MenuCard src="../../img/menu_5.jpg" name="Cup Cake" price="350rs" />
+					<MenuCard src="../../img/menu_6.jpg" name="Cup Cake" price="50rs" />
 				</div>
 				<div label="Lunch">
-					<MenuCard />
-					<MenuCard />
+					<MenuCard src="../../img/menu_1.jpg" name="Cup Cake" price="550rs" />
+					<MenuCard src="../../img/menu_3.jpg" name="Cup Cake" price="350rs" />
 				</div>
 				<div label="Dinner">
-					<MenuCard />
-					<MenuCard />
+					<MenuCard src="../../img/menu_2.jpg" name="Cup Cake" price="150rs" />
+					<MenuCard src="../../img/menu_5.jpg" name="Cup Cake" price="300rs" />
 				</div>
-				<div label="coffee">
-					<MenuCard />
-					<MenuCard />
+				<div label="Coffee">
+					<MenuCard src="../../img/menu_1.jpg" name="Cup Cake" price="50rs" />
+					<MenuCard src="../../img/menu_6.jpg" name="Cup Cake" price="150rs" />
 				</div>
 				<div label="Snack">
-					<MenuCard />
-					<MenuCard />
+					<MenuCard src="../../img/menu_1.jpg" name="Cup Cake" price="250rs" />
+					<MenuCard src="../../img/menu_4.jpg" name="Cup Cake" price="150rs" />
 				</div>
 			</Tabs>
 

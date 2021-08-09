@@ -1,14 +1,14 @@
 import React from "react";
 // import { Grid } from "semantic-ui-react";
 
-const MenuCard = () => {
+const MenuCard = ({ name, price, src }) => {
 	return (
 		<div className="menucard-section">
 			<ul>
 				<li>
-					<img alt="No" src="../../img/menu_1.jpg" />
+					<img alt="No" src={src} />
 					<div>
-						<h4>Lorem ipsum dolor sit amet,</h4>
+						<h4>{name}</h4>
 						<ul className="items-ul">
 							<li className="m0p0">ingredients</li>
 							<li className="m0p0">ingredients</li>
@@ -22,7 +22,7 @@ const MenuCard = () => {
 						</ul>
 					</div>
 
-					<h4>350rs</h4>
+					<h4>{price}</h4>
 				</li>
 			</ul>
 		</div>
