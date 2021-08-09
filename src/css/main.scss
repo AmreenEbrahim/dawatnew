@@ -286,6 +286,21 @@ ul {
 		font-family: "Times New Roman", Times, serif;
 		// text-shadow: #690 0.05em 0.05em;
 	}
+	&::after {
+		background: linear-gradient(-45deg, #000000 16px, transparent 0),
+			linear-gradient(45deg, #000000 16px, transparent 0);
+
+		background-position: top right;
+		background-repeat: repeat-x;
+		background-size: 32px 32px;
+		content: " ";
+		display: block;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		width: 100%;
+		height: 32px;
+	}
 }
 .book-table-section {
 	// width: 100%;
@@ -350,6 +365,22 @@ hr.solid {
 	font-weight: 800;
 	color: var(--primary-color);
 	font-style: italic;
+
+	&::after {
+		background: linear-gradient(-45deg, #000000 16px, transparent 0),
+			linear-gradient(45deg, #000000 16px, transparent 0);
+
+		background-position: top right;
+		background-repeat: repeat-x;
+		background-size: 32px 32px;
+		content: " ";
+		display: block;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		width: 100%;
+		height: 32px;
+	}
 }
 
 .footer {
@@ -416,6 +447,21 @@ hr.solid {
 	height: 12%;
 }
 .chef-section {
+	&::after {
+		background: linear-gradient(-45deg, #000000 16px, transparent 0),
+			linear-gradient(45deg, #000000 16px, transparent 0);
+
+		background-position: top right;
+		background-repeat: repeat-x;
+		background-size: 32px 32px;
+		content: " ";
+		display: block;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		width: 100%;
+		height: 32px;
+	}
 	.redimg {
 		width: 20%;
 	}
@@ -816,6 +862,21 @@ hr.solid {
 		column-count: 3;
 		font-size: 10px;
 	}
+	// &::after {
+	// 	background: linear-gradient(-45deg, #000000 16px, transparent 0),
+	// 		linear-gradient(45deg, #000000 16px, transparent 0);
+
+	// 	background-position: top right;
+	// 	background-repeat: repeat-x;
+	// 	background-size: 32px 32px;
+	// 	content: " ";
+	// 	display: block;
+	// 	position: absolute;
+	// 	bottom: 0px;
+	// 	left: 0px;
+	// 	width: 100%;
+	// 	height: 32px;
+	// }
 }
 
 @keyframes tabsanimate {

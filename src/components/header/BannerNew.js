@@ -3,7 +3,7 @@ import React from "react";
 
 const BannerNew = ({ src, menu, submenu }) => {
 	return (
-		<div className="banner" id="banner">
+		<section className="banner" id="banner">
 			<div className="slider">
 				<img src={src} alt="No" id="slideImg" />
 			</div>
@@ -17,7 +17,7 @@ const BannerNew = ({ src, menu, submenu }) => {
 				</span>
 				{/* <div className="content">Lorem Ipsum is simply dummy text11</div> */}
 			</div>
-		</div>
+		</section>
 	);
 };
 
