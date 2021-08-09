@@ -15,7 +15,7 @@ import BannerNew from "./BannerNew";
 const settings = {
 	arrows: false,
 	infinite: true,
-	speed: 500,
+	speed: 100,
 	dots: true,
 	adaptiveHeight: true,
 	slidesToShow: 1,
@@ -34,17 +34,17 @@ const HeaderInfo = () => {
 				<BannerNew
 					src="./../img/promo_slide_1.jpg"
 					menu="Welcome to "
-					submenu="Dawat Cafe "
-				/>
-				<BannerNew
-					src="./../img/promo_slide_2.jpg"
-					menu="Get Ready"
-					submenu="To join with us"
+					submenu="Dawat Cafe and Restaurant "
 				/>
 				<BannerNew
 					src="./../img/promo_slide_3.jpg"
 					menu="our menu"
 					submenu="See whats new today"
+				/>
+				<BannerNew
+					src="./../img/promo_slide_2.jpg"
+					menu="Get Ready"
+					submenu="To join with us"
 				/>
 			</Slider>
 			{/* <div className="layer ">
