@@ -15,7 +15,7 @@ import BannerNew from "./BannerNew";
 const settings = {
 	arrows: false,
 	infinite: true,
-	speed: 100,
+	speed: 500,
 	dots: true,
 	adaptiveHeight: true,
 	slidesToShow: 1,
