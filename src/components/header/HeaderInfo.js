@@ -20,7 +20,7 @@ const settings = {
 	adaptiveHeight: true,
 	slidesToShow: 1,
 	centerMode: true,
-	autoplay: false,
+	autoplay: true,
 	slidesToScroll: 1
 };
 
