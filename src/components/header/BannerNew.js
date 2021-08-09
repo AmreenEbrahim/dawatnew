@@ -3,7 +3,7 @@ import React from "react";
 
 const BannerNew = ({ src, menu, submenu }) => {
 	return (
-		<section className="banner" id="banner">
+		<section className="banner " id="banner">
 			<div className="slider">
 				<img src={src} alt="No" id="slideImg" />
 			</div>

@@ -939,7 +939,7 @@ hr.solid {
 //slideni
 
 span {
-	animation-duration: 4s;
+	animation-duration: 3s;
 	animation-name: slidein;
 	animation-iteration-count: infinite;
 	animation-fill-mode: forwards;
@@ -989,6 +989,7 @@ span {
 	padding: 0;
 	// overflow: hidden;
 }
+
 .slider {
 	width: 110%;
 	height: 100vh;
