@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 // import { Header, Image } from "semantic-ui-react";
 // import Carousel from "react-multi-carousel";
@@ -25,10 +25,36 @@ const settings = {
 };
 
 const HeaderInfo = () => {
+	const [navbar, setNavbar] = useState(false);
+	const changeBackground = () => {
+		// console.log(window.scrollY);
+		if (window.scrollY >= 100) {
+			setNavbar(true);
+		} else {
+			setNavbar(false);
+		}
+	};
+
+	useEffect(() => {
+		changeBackground();
+		// adding the event when scroll change background
+		window.addEventListener("scroll", changeBackground);
+	});
 	return (
 		<div className="header-section">
-			<Navbar />
-			<HeaderList />
+			{navbar ? (
+				<div>
+					<Navbar />
+					<HeaderList />
+				</div>
+			) : (
+				<div>
+					<HeaderList />
+					<Navbar />
+				</div>
+			)}
+			{/* <Navbar />
+			<HeaderList /> */}
 
 			<Slider {...settings} className=" slick-list">
 				<BannerNew

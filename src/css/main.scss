@@ -103,10 +103,13 @@ ul {
 		ul {
 			list-style: none;
 			display: flex;
+			height: 1.3em;
+			cursor: pointer;
 			// justify-content: space-between;
 		}
 		li {
 			display: flex;
+			grid-gap: 12px;
 			place-content: center;
 			img {
 				width: 10px;
@@ -465,10 +468,12 @@ hr.solid {
 	display: flex;
 	grid-gap: 25px;
 	justify-content: center;
+	cursor: pointer;
 }
 .secondary {
 	display: flex;
 	grid-gap: 10px;
+
 	justify-content: center;
 	height: 12%;
 }
@@ -917,7 +922,7 @@ hr.solid {
 	}
 
 	to {
-		transform: translate(0%, -10%);
+		transform: translate(5%, -10%);
 		opacity: 1;
 		// width: 100%;
 	}

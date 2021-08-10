@@ -11,7 +11,7 @@ const Navbar = () => {
 
 	//navbar scroll changeBackground function
 	const changeBackground = () => {
-		console.log(window.scrollY);
+		// console.log(window.scrollY);
 		if (window.scrollY >= 100) {
 			setNavbar(true);
 		} else {
@@ -27,7 +27,7 @@ const Navbar = () => {
 
 	//logo scroll function//1308
 	const changeLogo = () => {
-		if (window.scrollY >= 100) {
+		if (window.scrollY >= 80) {
 			setNavbarLogo(logoBlue);
 		} else {
 			setNavbarLogo(logo);
