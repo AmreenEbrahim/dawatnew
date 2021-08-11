@@ -9,7 +9,7 @@ const Footer = () => {
 				20,floor, Queensland Victoria Building,60 California USA
 			</address>
 			<p>
-				<a href="#">hello@dawat.com</a>
+				<a href="/">hello@dawat.com</a>
 			</p>
 			<p>
 				<a href="tel:+8800000001111">+88 000 0000 1111</a>
