@@ -11,7 +11,7 @@ const BannerNew = ({ src, menu, submenu }) => {
 				<span class="bannerdescription">
 					<h3>{menu}</h3>
 					<p> {submenu}</p>
-					<a href="/" class="book-now">
+					<a href="/" class="book-now-header">
 						Book Now
 					</a>
 				</span>

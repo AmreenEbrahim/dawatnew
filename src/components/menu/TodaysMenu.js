@@ -11,30 +11,116 @@ const TodaysMenu = () => {
 
 			<Tabs>
 				<div label="All">
-					<MenuCard src="../../img/menu_1.jpg" name="Cup Cake" price="350rs" />
-					<MenuCard src="../../img/menu_2.jpg" name="Cup Cake" price="150rs" />
-					<MenuCard src="../../img/menu_3.jpg" name="Cup Cake" price="100rs" />
-					<MenuCard src="../../img/menu_4.jpg" name="Cup Cake" price="400rs" />
+					<MenuCard
+						src="../../img/menu_1.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_2.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_3.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_4.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_4.jpg"
+						name="CupCake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_4.jpg"
+						name="CupCake Recipes"
+						price="$22"
+					/>
 				</div>
 				<div label="Breakfast">
-					<MenuCard src="../../img/menu_5.jpg" name="Cup Cake" price="350rs" />
-					<MenuCard src="../../img/menu_6.jpg" name="Cup Cake" price="50rs" />
+					<MenuCard
+						src="../../img/menu_5.jpg"
+						name="CupCake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_6.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_6.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_6.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
 				</div>
 				<div label="Lunch">
-					<MenuCard src="../../img/menu_1.jpg" name="Cup Cake" price="550rs" />
-					<MenuCard src="../../img/menu_3.jpg" name="Cup Cake" price="350rs" />
+					<MenuCard
+						src="../../img/menu_1.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_3.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
 				</div>
 				<div label="Dinner">
-					<MenuCard src="../../img/menu_2.jpg" name="Cup Cake" price="150rs" />
-					<MenuCard src="../../img/menu_5.jpg" name="Cup Cake" price="300rs" />
+					<MenuCard
+						src="../../img/menu_2.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_5.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
 				</div>
 				<div label="Coffee">
-					<MenuCard src="../../img/menu_1.jpg" name="Cup Cake" price="50rs" />
-					<MenuCard src="../../img/menu_6.jpg" name="Cup Cake" price="150rs" />
+					<MenuCard
+						src="../../img/menu_1.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_6.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
 				</div>
 				<div label="Snack">
-					<MenuCard src="../../img/menu_1.jpg" name="Cup Cake" price="250rs" />
-					<MenuCard src="../../img/menu_4.jpg" name="Cup Cake" price="150rs" />
+					<MenuCard
+						src="../../img/menu_1.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_4.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_4.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
+					<MenuCard
+						src="../../img/menu_4.jpg"
+						name="Cup Cake Recipes"
+						price="$22"
+					/>
 				</div>
 			</Tabs>
 

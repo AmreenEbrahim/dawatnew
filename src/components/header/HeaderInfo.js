@@ -13,13 +13,13 @@ import "slick-carousel/slick/slick-theme.css";
 // import Banner from "./Banner";
 import BannerNew from "./BannerNew";
 const settings = {
-	arrows: false,
+	arrows: true,
 	infinite: true,
 	speed: 100,
 	dots: true,
 	adaptiveHeight: true,
 	slidesToShow: 1,
-	centerMode: true,
+	centerMode: false,
 	autoplay: true,
 	slidesToScroll: 1
 };

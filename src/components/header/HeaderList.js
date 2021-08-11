@@ -21,8 +21,6 @@ const HeaderList = () => {
 							<img src={"../../img/google-plus.png"} alt="No" />
 							<img src={"../../img/twitter.png"} alt="No" />
 							<img src={"../../img/skype.png"} alt="No" />
-							<img src={"../../img/globe.png"} alt="No" />
-							<img src={"../../img/pinterest.png"} alt="No" />
 						</li>
 
 						<a href="/" class="booktable">

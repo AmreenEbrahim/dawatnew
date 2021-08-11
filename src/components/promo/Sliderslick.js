@@ -19,26 +19,26 @@ const Sliderslick = () => {
 	};
 	return (
 		<section className="promo-section">
-			<h3>Special Offers</h3>
+			<h3>Special Packages</h3>
 			<img src="/img/red.png" alt="No " />
 			<Slider {...settings} className="promo-card slick-list">
 				<PromoCard
 					src={"../../img/promo_slide_1.jpg"}
-					offer={" 40% off for 9inch- 12inch pizza-Wed,Thu,Fridayonly"}
+					offer={" 40% off for 9inch- 12inch pizza-Wed,Thu,Friday only"}
 					items={
 						"Pizza 12 inch +1 Side Dish +1.5L Coke Bottle only From 209,00"
 					}
 				/>
 				<PromoCard
 					src={"../../img/promo_slide_2.jpg"}
-					offer={" 40% off for 9inch- 12inch pizza-Wed,Thu,Fridayonly"}
+					offer={" 40% off for 9inch- 12inch pizza-Wed,Thu,Friday only"}
 					items={
 						"Pizza 12 inch +1 Side Dish +1.5L Coke Bottle only From 209,00"
 					}
 				/>
 				<PromoCard
 					src={"../../img/promo_slide_3.jpg"}
-					offer={" 40% off for 9inch- 12inch pizza-Wed,Thu,Fridayonly"}
+					offer={" 40% off for 9inch- 12inch pizza-Wed,Thu,Friday only"}
 					items={
 						"Pizza 12 inch +1 Side Dish +1.5L Coke Bottle only From 209,00"
 					}

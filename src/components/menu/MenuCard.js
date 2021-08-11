@@ -10,12 +10,15 @@ const MenuCard = ({ name, price, src }) => {
 					<div>
 						<h4>{name}</h4>
 						<ul className="items-ul">
-							<li className="m0p0">ingredients</li>
-							<li className="m0p0">ingredients</li>
-							<li className="m0p0">ingredients</li>
-							<li className="m0p0">ingredients</li>
-							<li className="m0p0">ingredients</li>
-							<li className="m0p0">ingredients</li>
+							<li className="m0p0">Juice</li>
+							<li className="m0p0">Juice</li>
+							<li className="m0p0">Juice</li>
+							<li className="m0p0">Juice</li>
+							<li className="m0p0">Juice</li>
+							<li className="m0p0">Juice</li>
+							<li className="m0p0">Juice</li>
+							<li className="m0p0">Juice</li>
+							<li className="m0p0">Juice</li>
 
 							{/* <li className="m0p0">123</li>
 							<li className="m0p0">123</li> */}
@@ -25,6 +28,7 @@ const MenuCard = ({ name, price, src }) => {
 					<h4>{price}</h4>
 				</li>
 			</ul>
+			<hr className="solid" />
 		</div>
 	);
 };

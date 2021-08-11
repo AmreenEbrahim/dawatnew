@@ -4,7 +4,7 @@ import React from "react";
 const Galleryy = () => {
 	return (
 		<section className="gallery-section">
-			<h3>Galleryy</h3>
+			<h3>Gallery</h3>
 			{/* <p class="img__description">
 				<Image src={"../../img/fbwhite.png"} />
 				<Image src={"../../img/google-plus.png"} />

@@ -60,7 +60,7 @@ const LatestNews = props => {
 				<Carousel
 					swipeable={true}
 					showDots={false}
-					arrows={false}
+					arrows={true}
 					responsive={responsive}
 					// means to render carousel on server-side.
 					infinite={true}
@@ -78,6 +78,8 @@ const LatestNews = props => {
 					<Card src={"./../img/blog-2.jpg"}></Card>
 					<Card src={"./../img/blog-3.jpg"}></Card>
 					<Card src={"./../img/menu_1.jpg"}></Card>
+					<Card src={"./../img/menu_2.jpg"}></Card>
+					<Card src={"./../img/menu_3.jpg"}></Card>
 					<Card src={"./../img/menu_2.jpg"}></Card>
 					<Card src={"./../img/menu_3.jpg"}></Card>
 				</Carousel>
