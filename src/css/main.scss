@@ -212,15 +212,15 @@ ul {
 				color: white;
 				text-decoration: none;
 				display: block;
-				padding: 20px 15px;
-				// padding: 0.9em; 	
+				padding: 40px 15px;
+				// padding: 0.9em;
 				font-size: 1em;
 				text-align: right;
 				text-transform: uppercase;
 				align-items: center;
 
 				&:hover {
-					padding: 20px 15px;
+					// padding: 20px 15px;
 					font-weight: bold;
 					color: var(--primary-color);
 				}
@@ -614,7 +614,7 @@ hr.solid {
 			margin-top: 1em;
 		}
 		.name {
-			font-size: 14px;
+			font-size: 20px;
 			font-weight: bold;
 		}
 		.desc {
@@ -742,7 +742,7 @@ hr.solid {
 	transform: translateY(0);
 }
 .chef-social {
-	height: "30%";
+	height: 30%;
 	background: none;
 	display: grid;
 	grid-row-gap: 2em;
