@@ -73,12 +73,30 @@ const LatestNews = props => {
 					dotListClass="custom-dot-list-style"
 					itemClass="carousel-item-padding-5-px"
 				>
-					<Card src={"./../img/blog-1.jpg"}></Card>
-					<Card src={"./../img/blog-2.jpg"}></Card>
-					<Card src={"./../img/blog-3.jpg"}></Card>
-					<Card src={"./../img/menu_1.jpg"}></Card>
-					<Card src={"./../img/menu_2.jpg"}></Card>
-					<Card src={"./../img/menu_3.jpg"}></Card>
+					<Card
+						src={"./../img/blog-1.jpg"}
+						title={"Restaurant welcome day meetup"}
+					/>
+					<Card
+						src={"./../img/blog-2.jpg"}
+						title={"Restaurant welcome day meetup1"}
+					/>
+					<Card
+						src={"./../img/blog-3.jpg"}
+						title={"Restaurant welcome day meetup2"}
+					/>
+					<Card
+						src={"./../img/menu_1.jpg"}
+						title={"Restaurant welcome day meetup3"}
+					/>
+					<Card
+						src={"./../img/menu_2.jpg"}
+						title={"Restaurant welcome day meetup4"}
+					/>
+					<Card
+						src={"./../img/menu_3.jpg"}
+						title={"Restaurant welcome day meetup5"}
+					/>
 				</Carousel>
 			</div>
 		</section>

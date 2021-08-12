@@ -1,13 +1,13 @@
 import React from "react";
 
-const Card = ({ src }) => {
+const Card = ({ src, title }) => {
 	return (
 		<div className="e-card">
 			<div className="card-image">
 				<img src={src} alt="No " />
 			</div>
 			<div className="e-card-content">
-				<h4>Restaurant welcome day meetup</h4>
+				<h4>{title}</h4>
 				<p>
 					JavaScript Succinctly was written to give readers an accurate, concise
 					examination of JavaScript objects and their supporting nuances, such
