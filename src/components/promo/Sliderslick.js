@@ -13,12 +13,12 @@ const Sliderslick = () => {
 		dots: true,
 		adaptiveHeight: true,
 		slidesToShow: 1,
-		centerMode: true,
+		centerMode: false,
 		autoplay: true,
 		slidesToScroll: 1
 	};
 	return (
-		<section className="promo-section">
+		<section className="promo-section" id="offer">
 			<h3>Special Packages</h3>
 			<img src="/img/red.png" alt="No " />
 			<Slider {...settings} className="promo-card slick-list">

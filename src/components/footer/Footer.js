@@ -3,17 +3,20 @@ import { Image } from "semantic-ui-react";
 
 const Footer = () => {
 	return (
-		<div className="footer">
+		<div className="footer" id="contact">
 			<img src={"../../img/main_logo.png"} alt="No " />
-			<address>
-				20,floor, Queensland Victoria Building,60 California USA
-			</address>
-			<p>
-				<a href="/">hello@dawat.com</a>
-			</p>
-			<p>
-				<a href="tel:+8800000001111">+88 000 0000 1111</a>
-			</p>
+			<div className="footer-contact">
+				<address>
+					20,floor, Queensland Victoria Building,60 California USA
+				</address>
+				<p>
+					<a href="/">hello@dawat.com</a>
+				</p>
+				<p>
+					<a href="tel:+8800000001111">+88 000 0000 1111</a>
+				</p>
+			</div>
+
 			<div className="social-links">
 				<Image src={"../../img/fbwhite.png"} />
 				<Image src={"../../img/google-plus.png"} />

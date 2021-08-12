@@ -5,7 +5,7 @@ import MenuCard from "./MenuCard";
 
 const TodaysMenu = () => {
 	return (
-		<section className="menu-section">
+		<section className="menu-section" id="menu">
 			<h3>Today's Menu</h3>
 			<img src="/img/red.png" alt="No " />
 

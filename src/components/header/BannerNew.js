@@ -1,7 +1,7 @@
 import React from "react";
 // import Navbar from "./Navbar";
 
-const BannerNew = ({ src, menu, submenu }) => {
+const BannerNew = ({ src, menu, submenu, activity }) => {
 	return (
 		<section className="banner " id="banner">
 			<div className="slider">
@@ -12,7 +12,7 @@ const BannerNew = ({ src, menu, submenu }) => {
 					<h3>{menu}</h3>
 					<p> {submenu}</p>
 					<a href="/" class="book-now-header">
-						Book Now
+						{activity}
 					</a>
 				</span>
 				{/* <div className="content">Lorem Ipsum is simply dummy text11</div> */}

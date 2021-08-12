@@ -30,8 +30,8 @@ const images = [
 ];
 const Chefs = () => {
 	return (
-		<section className="chef-section ">
-			<h3>Our chef's</h3>
+		<section className="chef-section " id="team">
+			<h3>Our Chef's</h3>
 			<img className="redimg" src="../../img/red.png" alt="No " />
 			<div>
 				{images.map(image => (

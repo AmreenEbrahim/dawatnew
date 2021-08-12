@@ -25,7 +25,7 @@ const MenuCard = ({ name, price, src }) => {
 						</ul>
 					</div>
 
-					<h4>{price}</h4>
+					<h5>{price}</h5>
 				</li>
 			</ul>
 			<hr className="solid" />

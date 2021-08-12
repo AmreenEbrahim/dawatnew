@@ -17,6 +17,7 @@ const HeaderList = () => {
 					</ul>
 					<ul className="secondary">
 						<li>
+							{/* <li className="fa fa-facebook"></li> */}
 							<img src={"../../img/fbwhite.png"} alt="No" />
 							<img src={"../../img/google-plus.png"} alt="No" />
 							<img src={"../../img/twitter.png"} alt="No" />

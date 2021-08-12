@@ -8,8 +8,7 @@ import Card from "./Card";
 const responsive = {
 	desktop: {
 		breakpoint: { max: 3000, min: 1024 },
-		items: 3,
-		slidesToSlide: 3
+		items: 3
 	},
 	tablet: {
 		breakpoint: { max: 1024, min: 464 },
@@ -51,7 +50,7 @@ const responsive = {
 
 const LatestNews = props => {
 	return (
-		<section className="latest-news">
+		<section className="latest-news" id="blog">
 			<div className="title">
 				<h3>Latest News</h3>
 				<img src="/img/red.png" alt="No " />
@@ -78,8 +77,6 @@ const LatestNews = props => {
 					<Card src={"./../img/blog-2.jpg"}></Card>
 					<Card src={"./../img/blog-3.jpg"}></Card>
 					<Card src={"./../img/menu_1.jpg"}></Card>
-					<Card src={"./../img/menu_2.jpg"}></Card>
-					<Card src={"./../img/menu_3.jpg"}></Card>
 					<Card src={"./../img/menu_2.jpg"}></Card>
 					<Card src={"./../img/menu_3.jpg"}></Card>
 				</Carousel>

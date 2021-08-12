@@ -41,7 +41,7 @@ const HeaderInfo = () => {
 		window.addEventListener("scroll", changeBackground);
 	});
 	return (
-		<div className="header-section">
+		<div className="header-section" id="home">
 			{navbar ? (
 				<div>
 					<Navbar />
@@ -61,16 +61,19 @@ const HeaderInfo = () => {
 					src="./../img/promo_slide_1.jpg"
 					menu="Welcome to "
 					submenu="Dawat Cafe and Restaurant "
+					activity="Reservation Now"
 				/>
 				<BannerNew
 					src="./../img/promo_slide_3.jpg"
 					menu="our menu"
 					submenu="See whats new today"
+					activity="Todays Menu"
 				/>
 				<BannerNew
 					src="./../img/promo_slide_2.jpg"
 					menu="Get Ready"
 					submenu="To join with us"
+					activity="Book Now"
 				/>
 			</Slider>
 			{/* <div className="layer ">

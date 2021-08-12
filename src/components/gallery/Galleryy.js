@@ -3,7 +3,7 @@ import React from "react";
 
 const Galleryy = () => {
 	return (
-		<section className="gallery-section">
+		<section className="gallery-section" id="gallery">
 			<h3>Gallery</h3>
 			{/* <p class="img__description">
 				<Image src={"../../img/fbwhite.png"} />

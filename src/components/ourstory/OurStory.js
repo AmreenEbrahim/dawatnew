@@ -4,7 +4,7 @@ import React from "react";
 
 const OurStory = () => {
 	return (
-		<section className="title" id="story">
+		<section className="title" id="about">
 			<h1>Our Story</h1>
 			<p className="story">
 				Lorem Ipsum is simply dummy text of the printing and typesetting
